@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://studio.digital.vistaprint.com/styles/errorPage.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400">
+<title>404 - Page Not Found</title>
+</head>
+<body><div class="vpLogo"></div>
+<h1>Sorry, we couldn&#39;t find that page</h1>
+<h2>Return to the top level of the site:</h2>
+<script>var topUrl = location.protocol + '//' + location.host;
+topUrl = topUrl
+    .replace('"', '&quot;')
+    .replace('\'', '&#39;')
+    .replace('>', '&gt;')
+    .replace('<', '&lt;');
+document.write('<a href="' + topUrl + '" class="ctaButton">Go To ' + topUrl + '</a>')</script>
+</body>
+</html>
